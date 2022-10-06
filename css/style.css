@@ -8,12 +8,14 @@ body {
 	font-size: 14px;
     	line-height: 1;
 }
+
 .header{
 	padding:10px;
 	background-image: url("../assets/capture.png");
 	display:flex;
 	justify-content:space-between;
 	vertical-align:middle;
+	
 }
 .left span{
 	font-size:15px;
@@ -51,6 +53,7 @@ body {
 	display:flex;
 	justify-content:center;
 	padding:15px;
+	
 	
 }
 .item2{
@@ -112,17 +115,27 @@ body {
 	padding:20px 20px;
 	width:100%;
 	margin-top:20px;
-	height:200px;
+	height:300px;
 }
 .slide2 img{
 	
 	padding:10px 50px;
 	width:100%;
-	height:150px;
+	height:180px;
 	cursor:pointer;
 }
 .topBrands p{
-	padding-top:30px;
+	padding-top:10px;
 	text-align:center;
 	font-size:24px;
+}
+.topBrands table{
+	margin:5px 45px;
+}
+.topBrands img{
+	padding:15px;
+	cursor:pointer;
+}
+.diwaliGif{
+	margin:10px 60px;
 }
