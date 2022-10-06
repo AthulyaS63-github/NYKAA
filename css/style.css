@@ -10,8 +10,8 @@ body {
 }
 .header{
 	padding:10px;
-	/*background-image: url("../assets/header.jpg");*/
-	background-color:#FF69B4; 
+	background-image: url("../assets/capture.png");
+	/*background-color:#FF69B4;*/
 	display:flex;
 	justify-content:space-between;
 	vertical-align:middle;
@@ -52,13 +52,16 @@ body {
 	display:flex;
 	justify-content:center;
 	padding:15px;
-	border-bottom:1px solid whitesmoke;
+	
 }
 .item2{
 	padding:15px;
 	font-size:15px;
 	font-weight:250px;
 	cursor:pointer;
+}
+.item2:hover{
+	color:#FF69B4;
 }
 .logo img{
 	width:100px;
@@ -82,3 +85,25 @@ body {
 	font-size: medium;
 	background-color: transparent;
 }
+.head3{
+	display:flex;
+	justify-content:center;
+	border-top:1px solid #DCDCDC;
+	border-bottom:1px solid #DCDCDC;
+	z-index: 999;
+	
+}
+.item3{
+	padding:15px;
+	font-size:15px;
+	color: #818181;
+	cursor:pointer;
+}
+.item3:hover{
+	color:#FF69B4;
+}
+.head31{
+	padding:5px;
+}
+
+
