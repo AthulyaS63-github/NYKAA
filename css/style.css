@@ -63,7 +63,7 @@ body {
 	cursor:pointer;
 }
 .item2:hover{
-	color:#FF69B4;
+	color:#cf1d52;
 }
 .logo img{
 	width:100px;
@@ -102,7 +102,7 @@ body {
 	cursor:pointer;
 }
 .item3:hover{
-	color:#FF69B4;
+	color:#cf1d52;
 }
 .head31{
 	padding:5px;
@@ -224,16 +224,19 @@ input[type=email]{
 }
 .footer2{
 	 background-color:#8C8D94;
-	color:#FFFFFF;
+	 color:#FFFFFF;
+	 display:flex;
+	 padding:35px;
 }
-.footer2 img{
-	padding:25px;
+ .footer21 img{
+	margin-left:16px;
+	padding:8px;
 }
 .footer2 ul li{
 	list-style:none;
-	padding-top:10px;
+	padding-top:14px;
 	font-size:12px;
 }
 .footer2 ul li:hover{
-	color:#FF69B4;
-}	
+	color:#cf1d52;
+}
