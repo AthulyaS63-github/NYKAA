@@ -159,7 +159,7 @@ body {
 	display:flex;
 	margin-left:300px;
 	width:700px;
-	overflow:scroll;
+	overflow-x:scroll;
 }
 .cards table tr td {
 	padding-top:5px;
@@ -176,3 +176,64 @@ body {
 	text-align:center;
 	font-size:24px;
 }
+.footer{
+	background-color:#3F414D;
+	padding-top:25px;
+	margin-top:50px;
+	justify-content:center;
+	display:flex;
+}
+.login{
+	margin:20px;
+	width:500px;
+}
+.footerMail{
+	color:#FFFFFF;
+	font-size:14px;
+	
+}
+
+input[type=email]{
+	background-color:#3F414D;
+        border-style: none none solid none;
+        border-width: 1px;
+        border-color:#FFFFFF;
+	color:#FFFFFF;
+}
+.send{
+	padding:5px;
+	margin-top:5px;
+}
+
+.button {
+  background-color:#3F414D;
+  color:#FFFFFF; 
+  border-color:#FFFFFF;
+  padding:9px ;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  cursor: pointer;
+  margin-bottom:1px;
+}
+.appPics{
+	padding:15px;
+}
+.help{
+	display:flex;
+}
+.footer2{
+	 background-color:#8C8D94;
+	color:#FFFFFF;
+}
+.footer2 img{
+	padding:25px;
+}
+.footer2 ul li{
+	list-style:none;
+	padding-top:10px;
+	font-size:12px;
+}
+.footer2 ul li:hover{
+	color:#FF69B4;
+}	
