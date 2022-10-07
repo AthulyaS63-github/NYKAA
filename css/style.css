@@ -164,14 +164,15 @@ body {
 .cards table tr td {
 	padding-top:5px;
 }
-.view p{
-	margin-left:70px;
+.product .view p{
+	text-align:center;
 	color:#FF69B4;
 	margin-top:20px;
+	font-size:13px;
 	
 }
 .product p{
 	
 	text-align:center;
-	font-size:13px;
+	font-size:24px;
 }
