@@ -10,7 +10,7 @@ body {
 }
 
 .header{
-	padding:10px;
+	padding:15px;
 	background-image: url("../assets/capture.png");
 	display:flex;
 	justify-content:space-between;
@@ -19,7 +19,6 @@ body {
 }
 .left span{
 	font-size:15px;
-	font-weight:250px;
 	cursor:pointer;
 	
 }
@@ -29,7 +28,7 @@ body {
 
 .right span{
 	font-size:12px;
-	font-weight:250px;
+	
 	cursor:pointer;
 }
 .right span:hover{
@@ -54,12 +53,13 @@ body {
 	justify-content:center;
 	padding:15px;
 	
-	
+}
+.headerRight{
+	display:flex;
 }
 .item2{
 	padding:15px;
 	font-size:15px;
-	font-weight:250px;
 	cursor:pointer;
 }
 .item2:hover{
@@ -169,7 +169,6 @@ body {
 	color:#FF69B4;
 	margin-top:20px;
 	font-size:13px;
-	
 }
 .product p{
 	
@@ -190,7 +189,6 @@ body {
 .footerMail{
 	color:#FFFFFF;
 	font-size:14px;
-	
 }
 
 input[type=email]{
@@ -226,17 +224,26 @@ input[type=email]{
 	 background-color:#8C8D94;
 	 color:#FFFFFF;
 	 display:flex;
-	 padding:35px;
+	 justify-content:space-between;
+	 padding:50px;
 }
- .footer21 img{
-	margin-left:16px;
-	padding:8px;
+.footer21 img{
+	margin-left:5px;
+	padding:2px;
+	margin-bottom:5px;
 }
 .footer2 ul li{
 	list-style:none;
-	padding-top:14px;
+	padding-top:15px;
 	font-size:12px;
+	
 }
-.footer2 ul li:hover{
+.footer2 ul{
+	padding-top:10px;
+}
+	
+.footer2  li:hover{
 	color:#cf1d52;
+	cursor:pointer;
 }
+
