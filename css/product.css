@@ -45,6 +45,58 @@ table tr td {
 }
 .choice {
 	margin:5px 2px;
-	padding:10px 2px;
-	background-color:#e8e9e6;
+	padding:8px 2px;
+	background-color:whitesmoke;
+}
+.selectBox{
+	margin-top:10px;
+	padding-top:2px;
+	width:120px;
+	position:relative;
+}
+.selectBox select{
+	padding:5px;
+	font-size:14px;
+	width:100%;
+	border-radius:2px;
+	-webkit-appearance:none;
+	appearance:none;
+	border:none;
+}
+.selectBox:after{
+	content:"";
+	position:absolute;
+	right:4px;
+	top:50%;
+	border-top:4px solid #cf1d52;
+	border-left:3px solid transparent;
+	border-right:3px solid transparent;
+}
+.selectButtons button{
+	padding-top:20px;
+}
+
+.buttonSelect1 button{
+	margin-left: 10px;
+	text-transform: capitalize;
+	color:black;
+	padding: 7px;
+	border-radius: 30px;
+	background-color:#FFFFFF;
+	align-items: center;
+	cursor: pointer;
+	outline: none;
+	border: 1px solid grey;
+}
+.buttonSelect2 button{
+	margin-left: 10px;
+	text-transform: capitalize;
+	color: rgb(253, 250, 250);
+	padding: 7px;
+	border-radius: 30px;
+	background-color: black;
+	align-items: center;
+	cursor: pointer;
+	outline: none;
+	border: none;
 }
