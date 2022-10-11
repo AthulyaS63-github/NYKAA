@@ -72,11 +72,11 @@ table tr td {
 	border-left:3px solid transparent;
 	border-right:3px solid transparent;
 }
-.selectButtons button{
-	padding-top:20px;
+.buttonsSelect {
+	padding-top:10px;
+	margin-top:20px;
 }
-
-.buttonSelect1 button{
+.buttonSelect2 button{
 	margin-left: 10px;
 	text-transform: capitalize;
 	color:black;
@@ -87,8 +87,10 @@ table tr td {
 	cursor: pointer;
 	outline: none;
 	border: 1px solid grey;
+	height:30px;
+	width:60px;
 }
-.buttonSelect2 button{
+.buttonSelect1 button{
 	margin-left: 10px;
 	text-transform: capitalize;
 	color: rgb(253, 250, 250);
@@ -96,7 +98,60 @@ table tr td {
 	border-radius: 30px;
 	background-color: black;
 	align-items: center;
+	width:60px;
 	cursor: pointer;
+	height:30px;
 	outline: none;
 	border: none;
+}
+.addBag{
+	margin-top:50px;
+	margin-left:0px;
+	padding:40px 0px;
+	display:flex;
+}
+.addBag button{
+	padding:15px 65px;
+	background-color: #cf1d52;
+	border:none;
+	cursor:pointer;
+	
+}
+.spanBag{
+	font-size:18px;
+	color:#FFFFFF;
+}
+.deliveryLoc{
+	
+	padding:0 2px;
+}
+.delivery{
+	margin-left:50px;
+	margin-top:50px;
+}
+.deliveryLoc img{
+	width:20px;
+}
+.delivery span{
+	padding:2px;
+	font-size:16px;
+	color:#818181;
+}
+.inputBox{
+	padding:5px 0px;
+	margin-top:20px;
+	border:1px solid  #818181;
+}
+input[type=check]{
+	background-color:#FFFFFF;
+        border-style:none;
+	padding:5px;
+}
+::placeholder{
+  color: #818181;
+  font-size:14px
+}
+.inputBox button{
+	 border-style:none;
+	 color:#cf1d52
 }
