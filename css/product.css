@@ -148,10 +148,11 @@ input[type=check]{
 	padding:5px;
 }
 ::placeholder{
-  color: #818181;
-  font-size:14px
+  	color: #818181;
+  	font-size:14px
 }
 .inputBox button{
 	 border-style:none;
-	 color:#cf1d52
+	 color:#cf1d52;
+	 cursor:pointer;
 }

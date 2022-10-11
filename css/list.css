@@ -1,0 +1,18 @@
+.flex{
+	display:flex;
+	justify-content:center;
+}
+body { 
+	font-family: Inter, Roboto, Arial, sans-serif;
+	font-size: 14px;
+    	line-height: 1;
+}
+.lightColor{
+	color: #818181;
+}
+.listSlide p{
+	text-align:center;
+}
+.padding5 img{
+	padding:5;
+}
