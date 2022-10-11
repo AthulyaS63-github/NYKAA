@@ -1,18 +1,37 @@
 .flex{
 	display:flex;
+}
+.center{
 	justify-content:center;
+}
+.spacebetween{
+	justify-content:space-between;
+}
+
+.lightColor{
+	color: #818181;
 }
 body { 
 	font-family: Inter, Roboto, Arial, sans-serif;
 	font-size: 14px;
     	line-height: 1;
 }
-.lightColor{
-	color: #818181;
-}
 .listSlide p{
 	text-align:center;
 }
 .padding5 img{
 	padding:5;
+}
+.festiveList{
+	padding:25px 50px;
+}
+.festiveList img{
+	width:200px;
+}
+.festiveOfferList h2{
+	cursor:pointer;
+}
+.festiveOfferList p{
+	font-size:20px;
+	cursor:pointer;
 }

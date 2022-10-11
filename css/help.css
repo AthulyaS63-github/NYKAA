@@ -1,0 +1,78 @@
+*{
+	margin:0;
+	padding:0;
+}
+.flex{
+	display:flex;
+}
+.flexSpace{
+	display:flex;
+	justify-content:space-between;
+}
+.flexCenter{
+	display:flex;
+	justify-content:center;
+}
+body{
+	background-color: #FFFFFF;
+    	color: #333333;
+	font-family: -apple-system,BlinkMacSystemFont,
+		    "Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,
+		   "Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";	
+}
+.header .left img{
+	width:150px;
+}
+.header{
+	padding:40px 40px 40px 60px;
+}
+.right a{
+	color:#cf1d52;
+	text-decoration:none;
+	cursor:pointer;
+}
+.right a:hover{
+	color:blue;
+}
+.search{
+	background-color:#e3256b;
+	padding:50px ;
+}
+.search input{
+	padding:10px 50px;
+	margin-left:300px;
+	border:1px solid #e3256b;
+	border-radius:8px;
+	width:500px;
+	
+}
+.search button{
+	padding:10px;
+	margin-left:0px;
+	background-color:#cf1d52;
+	color:white;
+	border:none;
+	font-size:16px;
+	width:100px;
+	cursor:pointer;
+}
+.helpCategories p{
+	text-align:center;
+	font-size:30px;
+	padding:10px 0px;
+}
+.categories{
+	margin:20px;
+}
+.categories p{
+	color:#cf1d52;
+	text-align:center;
+}
+.categoriesImg{
+	width:100px;
+}
+.categoriesList{
+	margin:0px 30px;
+	margin:0px 50px;
+	
+}	

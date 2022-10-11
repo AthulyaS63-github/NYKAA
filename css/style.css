@@ -99,6 +99,9 @@ body {
 	z-index: 999;
 	
 }
+.head3 a{
+	text-decoration:none;
+}
 .item3{
 	padding:15px;
 	font-size:15px;
@@ -247,6 +250,14 @@ input[type=email]{
 	padding-top:15px;
 	font-size:12px;
 	
+	
+}
+.footer2 ul li a{
+	text-decoration:none;
+	color:#FFFFFF;
+}
+.footer2 ul li a:hover{
+	color:#cf1d52;
 }
 .footer2 ul{
 	padding-top:10px;
