@@ -33,22 +33,20 @@ body{
     background-color:#FFFFFF;
     border-radius: 4px;
 }
-button[type=closeButton]
-{
-	border-style:none;
-	cursor:pointer;
+.closeButton a{
+	text-decoration:none;
 }
 hr{
 	margin:15px;
 }
-
-input[type=register]{
+input[type=text]{
 	background-color:#cf1d52;
         border:solid 1px;
 	color:#FFFFFF;
 	padding:10px 0px 10px 10px;
 	width:300px;
 	margin:25px;
+	outline:none;
 }
 ::placeholder{
   color:#FFFFFF; 

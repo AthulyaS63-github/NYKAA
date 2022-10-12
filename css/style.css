@@ -206,6 +206,7 @@ input[type=email]{
         border-width: 1px;
         border-color:#FFFFFF;
 	color:#FFFFFF;
+	outline:none;
 }
 ::placeholder{
   color:#FFFFFF; 

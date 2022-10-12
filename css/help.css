@@ -44,6 +44,7 @@ body{
 	border:1px solid #e3256b;
 	border-radius:8px;
 	width:500px;
+	outline:none;
 	
 }
 .search button{

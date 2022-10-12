@@ -20,11 +20,23 @@
 .fontMedium{
 	font-size:14px;
 }
+.fontSmall{
+	font-size:12px;
+}
+.fontLarge{
+	font-size:22px;
+}
 .padding5{
 	padding:5px;
 }
 .padding2{
+	padding:2px;
+}
+.padding2{
 	padding-bottom:2px;
+}
+.green{
+	color:green;
 }
 .del{
 	width:20px;
@@ -34,13 +46,15 @@
 body{
 	font-family:inter,sans-serif;
 	color:#001325;
-	background:"nykaa.html";
+	background-image:url(../assets/home.png);
 }
 .containerBox{
 	margin: auto;
 	margin-right:0px;
 	width:400px;
 	border:1px solid #818181;
+	background-color:#FFFFFF;
+	
 }
 .container{
 	padding:15px;
@@ -57,8 +71,7 @@ body{
 }
 .cartHeader span{
 	font-size:12px;
-	color:#818181;;
-	font-weight:none;
+	color:#818181;
 	margin-top:10px;
 	margin-left:5px;
 }
@@ -68,16 +81,19 @@ body{
 	padding:5px 2px;
 	margin-top:20px;
 }
-.register button{
-	padding:5px 120px;
+.button{
+	padding:10px 120px;
 	margin:5px;
 	cursor:pointer;
-	color:#cf1d52;
 	background-color:#FFFFFF;
 	border:1px solid #e5e4e2 ;
+	border-radius:4px;
+}
+.button a{
+	 color:#cf1d52;
+	text-decoration:none;
 	font-weight:bold;
 	font-size:14px;
-	border-radius:4px;
 }
 .cartPic{
 	width:100px;
@@ -90,6 +106,7 @@ body{
 }
 .selection select {
 	border:none;
+	outline:none;
 }
 .delNum{
 	color:grey;
@@ -113,4 +130,32 @@ body{
 .couponsDes p{
 	font-size:14px;
 	color:#cf1d52;
+}
+.rightArrow {
+	margin-left:120px;
+}
+.price{
+	font-weight:bold;
+	font-size:16px;
+}
+.savings img{
+	margin-top:0px;
+}
+.savings p{
+	margin-top:5px;
+	color:#818181;
+}
+.footer{
+	padding:2px 10px;
+}
+.footer button{
+	padding:14px 50px;
+	margin:2px;
+	cursor:pointer;
+	color:#FFFFFF;
+	background-color:#cf1d52;
+	border:1px solid #e5e4e2 ;
+	font-weight:bold;
+	font-size:14px;
+	border-radius:4px;
 }
