@@ -119,11 +119,13 @@ body{
 .guest p{
 	text-align:center;
 }
-.itemDes p{
-	font-weight:bold;
+.itemBag{
+	color:#FEA838;
+	font-weight:medium;
 }
 .edit{
 	margin-left:100px;
 	padding:0px 10px;
 	font-size:14px;
+	font-weight:bold;
 }
