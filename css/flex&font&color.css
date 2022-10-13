@@ -1,0 +1,43 @@
+*{
+	margin:0;
+	padding:0;
+}
+.flex{
+	display:flex;
+}
+.flexBetween{
+	display:flex;
+	justify-content:space-between;
+}
+.flexCenter{
+	display:flex;
+	justify-content:Center;
+}
+.flexStart{
+	display:flex;
+	justify-content:start;
+}
+.fontMedium{
+	font-size:14px;
+}
+.fontSmall{
+	font-size:12px;
+}
+.fontLarge{
+	font-size:22px;
+}
+.padding5{
+	padding:5px;
+}
+.padding2{
+	padding:2px;
+}
+.green{
+	color:green;
+}
+.pink{
+	color:#cf1d52;
+}
+.dark{
+	color:#3F414D;
+}
