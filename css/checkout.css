@@ -4,6 +4,7 @@
 }
 body{
 	font-family:inter,sans-serif;
+	/*background-color:#fddde6;*/
 }
 .checkoutHeader {
 	background-color:whitesmoke;
@@ -41,13 +42,13 @@ body{
 	padding:15px 50px 15px 15px;
 	cursor:pointer;
 	color:#cf1d52;
-	background-color:#FFFFFF;
+	background-color:whitesmoke;
 	font-weight:bold;
 	font-size:16px;
 	width:140px;
 }
 .containerBox{
-	width:400px;
+	width:450px;
 	padding:10px 20px;
 	margin:0px 40px;
 	background-color:#FFFFFF;
@@ -84,7 +85,7 @@ body{
 }
 .phoneNum{
 	margin:30px 0px;
-	padding:15px 50px 15px 15px;
+	padding:15px 5px;
 	cursor:pointer;
 	color:#FFFFFF;
 	background-color:#cf1d52;
@@ -95,4 +96,34 @@ body{
 }
 .phoneNum p{
 	text-align:center;
+}
+.checkoutUs p{
+	font-weight:bold;
+	font-size:16px;
+}
+.benefit{
+	padding:10px 5px;
+	margin-top:10px;
+}
+.guest{
+	margin:30px 0px;
+	padding:15px 5px;
+	cursor:pointer;
+	color:#cf1d52;
+	background-color:#FFFFFF;
+	border:1px solid #cf1d52;
+	font-weight:bold;
+	font-size:16px;
+	width:100%;
+}
+.guest p{
+	text-align:center;
+}
+.itemDes p{
+	font-weight:bold;
+}
+.edit{
+	margin-left:100px;
+	padding:0px 10px;
+	font-size:14px;
 }

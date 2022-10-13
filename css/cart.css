@@ -108,7 +108,7 @@ body{
 .footer{
 	padding:2px 10px;
 }
-.footer button{
+.proceed a{
 	padding:14px 50px;
 	margin:2px;
 	cursor:pointer;
@@ -118,4 +118,5 @@ body{
 	font-weight:bold;
 	font-size:14px;
 	border-radius:4px;
+	text-decoration:none;
 }
