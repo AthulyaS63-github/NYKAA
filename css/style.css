@@ -48,6 +48,10 @@ body {
 .separate2{
 	border-right:1px solid black;
 }
+.right a{
+	text-decoration:none;
+	color:black;
+}
 .mainHead{
 	display:flex;
 	justify-content:center;
